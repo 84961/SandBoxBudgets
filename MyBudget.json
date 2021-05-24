@@ -29,7 +29,7 @@
                     "Contributor"
                 ],
                 "contactGroups": []
-            }
+            },
             "forecasted_GreaterThan_90_Percent": {
                 "enabled": true,
                 "operator": "GreaterThan",
