@@ -1,0 +1,47 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "budgetName": {
+      "value": "Dev-Sandbox-Budget"
+    },
+    "amount": {
+      "value": "200"
+    },
+    "timeGrain": {
+      "value": "Monthly"
+    },
+    "startDate": {
+      "value": "2021-05-24"
+    },
+    "endDate": {
+      "value": "2022-05-23"
+    },
+    "firstThreshold": {
+      "value": "80"
+    },
+    "secondThreshold": {
+      "value": "90"
+    },
+    "contactEmails": {
+      "value": [
+        "sparsh.agarwal@ul.com"
+      ]
+    },
+    "contactRoles": {
+      "value": [
+        "Contributor",
+        "Reader"
+      ]
+    },
+    "contactGroups": {
+      "value": []
+    },
+    "resourceGroupFilterValues": {
+      "value": []
+    },
+    "meterCategoryFilterValues": {
+      "value": []
+    }
+  }
+}
