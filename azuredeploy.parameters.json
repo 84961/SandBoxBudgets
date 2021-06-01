@@ -38,7 +38,7 @@
       "value": []
     },
     "resourceGroupFilterValues": {
-      "value": []
+      "value": ["rg-sandbox-eris-application-dev-southindia"]
     },
     "meterCategoryFilterValues": {
       "value": []
